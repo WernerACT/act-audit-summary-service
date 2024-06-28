@@ -1,0 +1,28 @@
+{
+  "name": "act-audit-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.7",
+    "pg": "^8.12.0",
+    "decimal.js": "^10.4.3",
+    "@act/logger": "git+https://gitlab+deploy-token-133661:sM-spD6m7fnFvVKmyEe3@gitlab.com/act-dev/act-logger.git#v1.0.2",
+    "rxjs": "^7.8.0",
+    "rxjs-stream": "^5.0.0",
+    "sql-template-tag": "^4.1.0",
+    "mysql2": "^3.0.1",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.8",
+    "typescript": "^5.1.6"
+  }
+}
